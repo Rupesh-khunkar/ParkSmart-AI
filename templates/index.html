@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ParkSmart AI | Smart Parking Rental</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topbar"><div class="brand"><span class="logo">P</span><span>ParkSmart <b>AI</b></span></div><span class="tag">SMART PARKING RENTAL</span></header>
+<main>
+<section class="hero">
+<div class="hero-copy"><p class="eyebrow">MAKE EMPTY SPACES USEFUL</p><h1>Parking when<br><span>you need it.</span></h1>
+<p>Discover flexible hourly parking from temporarily unused apartment and private spaces.</p>
+<div class="hero-pills"><span>✓ Hourly rentals</span><span>✓ AI price estimate</span><span>✓ Simple search</span></div></div>
+<div class="hero-card"><div class="mini-label">HOW IT WORKS</div><div class="steps"><div><span>1</span><p><b>Choose a location</b><small>Pick your area and space type</small></p></div><div><span>2</span><p><b>Set your hours</b><small>Enter start hour and duration</small></p></div><div><span>3</span><p><b>Estimate the cost</b><small>Get an ML-based hourly price</small></p></div></div></div>
+</section>
+<section class="section-head"><div><p class="eyebrow">AI RENTAL ESTIMATOR</p><h2>Find your parking price</h2><p class="muted">Adjust the details to estimate a fair hourly rate.</p></div><div class="status"><span></span> Model ready</div></section>
+<section class="content-grid">
+<form method="POST" class="panel form-panel">
+<div class="form-grid">
+<label>Area<select name="area">{% for v in ['Central','Residential','Business District','University Area','Suburban'] %}<option {% if form.area==v %}selected{% endif %}>{{v}}</option>{% endfor %}</select></label>
+<label>Parking type<select name="parking_type">{% for v in ['Apartment','Commercial','Open Lot'] %}<option {% if form.parking_type==v %}selected{% endif %}>{{v}}</option>{% endfor %}</select></label>
+<label>Security<select name="security"><option {% if form.security=='Yes' %}selected{% endif %}>Yes</option><option {% if form.security=='No' %}selected{% endif %}>No</option></select></label>
+<label>Covered space<select name="covered"><option {% if form.covered=='Yes' %}selected{% endif %}>Yes</option><option {% if form.covered=='No' %}selected{% endif %}>No</option></select></label>
+<label>Distance to city centre (km)<input name="distance_to_centre_km" type="number" min="0.5" max="30" step="0.1" value="{{form.distance_to_centre_km}}" required></label>
+<label>Demand level (1–5)<input name="demand_level" type="number" min="1" max="5" value="{{form.demand_level}}" required></label>
+<label>Start hour (0–23)<input name="hour_of_day" type="number" min="0" max="23" value="{{form.hour_of_day}}" required></label>
+<label>Duration (hours)<input name="duration_hours" type="number" min="1" max="24" step="1" value="{{form.duration_hours}}" required></label>
+</div>
+<button type="submit">Estimate parking price <span>→</span></button>
+<p class="fineprint">Academic prototype: price estimates are based on synthetic sample data.</p>
+</form>
+<div class="panel result-panel">
+<p class="eyebrow">YOUR ESTIMATE</p>
+{% if prediction is not none %}
+<div class="price">₹{{ "%.2f"|format(prediction) }}<small>/ hour</small></div>
+<div class="total-row"><span>Estimated total</span><b>₹{{ "%.2f"|format(estimated_total) }}</b></div>
+<div class="result-note">AI estimate generated successfully. Actual prices may vary by host and location.</div>
+{% else %}
+<div class="empty-icon">₹</div><h3>Your estimate will appear here</h3><p class="muted">Complete the form and select “Estimate parking price”.</p>
+{% endif %}
+<div class="model-stats"><div><small>Training records</small><b>800</b></div><div><small>Test MAE</small><b>₹{{metrics.mae}}</b></div><div><small>R² score</small><b>{{metrics.r2}}</b></div></div>
+</div></section>
+<section class="section-head listings-head"><div><p class="eyebrow">EXAMPLE LISTINGS</p><h2>Spaces in the sample dataset</h2><p class="muted">Illustrative records, not live availability.</p></div></section>
+<section class="listing-grid">{% for s in spaces %}<article class="listing"><div class="parking-art"><span> P </span><small>{{s.parking_type}}</small></div><div class="listing-body"><div class="listing-title"><b>{{s.area}}</b><span>₹{{s.hourly_price_inr}}/hr</span></div><p>{{s.distance_to_centre_km}} km from centre · {{'Covered' if s.covered=='Yes' else 'Open-air'}}</p><div class="chips"><span>{{'Secured' if s.security=='Yes' else 'Unsecured'}}</span><span>Sample listing</span></div></div></article>{% endfor %}</section>
+<section class="disclaimer"><b>Prototype note</b><p>Booking, payment, identity verification, real-time calendars and apartment-owner permissions are not implemented. Add these before real-world use.</p></section>
+</main><footer>ParkSmart AI · Student AI/ML Mini Project · Built with Python and Flask</footer>
+</body></html>

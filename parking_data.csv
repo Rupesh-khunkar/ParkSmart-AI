@@ -1,0 +1,801 @@
+space_id,area,parking_type,security,covered,distance_to_centre_km,demand_level,hour_of_day,duration_hours,hourly_price_inr
+PS0001,Central,Apartment,No,Yes,4.4,1,21,12,75.95
+PS0002,Central,Apartment,Yes,Yes,9.3,1,17,4,88.28
+PS0003,Suburban,Commercial,Yes,No,10.8,1,5,8,40.44
+PS0004,Business District,Apartment,Yes,No,2.2,3,19,5,86.69
+PS0005,Central,Open Lot,No,Yes,17.5,4,2,12,71.11
+PS0006,Business District,Open Lot,Yes,Yes,1.3,2,9,2,89.74
+PS0007,Residential,Apartment,No,No,8.4,3,5,6,36.71
+PS0008,Central,Open Lot,Yes,Yes,3.4,4,8,12,102.16
+PS0009,Residential,Open Lot,No,Yes,4.5,1,10,8,46.02
+PS0010,Suburban,Open Lot,No,Yes,12.0,4,20,10,49.42
+PS0011,Residential,Commercial,Yes,Yes,13.5,5,8,8,86.04
+PS0012,Residential,Apartment,No,Yes,13.7,1,4,3,36.98
+PS0013,University Area,Open Lot,Yes,No,7.2,4,16,5,67.01
+PS0014,Central,Open Lot,Yes,No,14.0,3,3,5,69.21
+PS0015,University Area,Apartment,No,Yes,17.2,3,16,3,52.63
+PS0016,Business District,Open Lot,Yes,Yes,7.0,2,17,12,78.29
+PS0017,Central,Open Lot,No,No,0.8,3,9,4,85.94
+PS0018,Central,Apartment,No,Yes,17.6,5,4,3,86.65
+PS0019,University Area,Open Lot,Yes,No,9.7,5,13,4,66.81
+PS0020,Residential,Open Lot,No,No,17.9,3,14,12,30.38
+PS0021,University Area,Apartment,Yes,Yes,1.6,1,18,12,72.16
+PS0022,Central,Open Lot,Yes,Yes,1.7,1,10,2,89.14
+PS0023,Suburban,Apartment,No,No,4.2,2,23,10,32.89
+PS0024,University Area,Apartment,Yes,Yes,12.0,3,13,8,70.65
+PS0025,University Area,Open Lot,Yes,Yes,1.6,3,3,4,67.94
+PS0026,Residential,Commercial,Yes,No,8.6,1,14,12,56.91
+PS0027,Central,Apartment,Yes,Yes,16.7,2,5,8,77.55
+PS0028,University Area,Apartment,Yes,No,0.5,4,8,10,76.91
+PS0029,Business District,Commercial,No,Yes,3.8,2,1,12,80.98
+PS0030,Central,Open Lot,No,Yes,1.5,5,2,3,85.42
+PS0031,Central,Open Lot,Yes,Yes,7.6,5,7,1,85.11
+PS0032,Suburban,Open Lot,No,No,4.1,3,7,5,27.17
+PS0033,University Area,Apartment,No,No,6.0,1,0,10,37.54
+PS0034,Central,Apartment,Yes,No,2.8,3,2,4,78.32
+PS0035,Business District,Commercial,Yes,No,15.1,3,19,12,95.21
+PS0036,Business District,Open Lot,Yes,Yes,5.1,1,23,12,68.37
+PS0037,Residential,Commercial,No,Yes,13.1,2,21,5,48.2
+PS0038,Central,Apartment,No,No,1.3,3,4,5,73.83
+PS0039,Residential,Open Lot,No,No,10.3,1,2,3,16.9
+PS0040,Suburban,Open Lot,Yes,No,2.7,3,11,1,39.16
+PS0041,Business District,Apartment,Yes,Yes,6.7,5,13,3,91.92
+PS0042,Residential,Apartment,No,Yes,3.6,3,13,4,51.47
+PS0043,Business District,Apartment,Yes,No,15.8,4,7,4,76.26
+PS0044,Business District,Apartment,Yes,Yes,12.1,4,10,5,84.93
+PS0045,Central,Commercial,No,No,12.4,5,10,1,100.93
+PS0046,Residential,Open Lot,No,Yes,2.4,4,11,6,60.87
+PS0047,University Area,Open Lot,Yes,No,16.2,2,8,1,54.93
+PS0048,Suburban,Open Lot,Yes,No,8.0,3,19,6,45.32
+PS0049,Central,Open Lot,No,No,12.2,3,12,5,57.93
+PS0050,University Area,Open Lot,Yes,No,7.6,1,9,5,51.83
+PS0051,Residential,Commercial,No,No,8.2,2,16,10,48.88
+PS0052,Residential,Open Lot,Yes,No,9.5,5,10,2,48.2
+PS0053,Residential,Open Lot,No,Yes,14.6,2,0,1,38.18
+PS0054,Central,Commercial,No,Yes,13.1,4,15,8,92.67
+PS0055,Residential,Apartment,Yes,Yes,14.1,2,5,12,47.77
+PS0056,Central,Commercial,Yes,No,12.2,5,19,6,102.41
+PS0057,University Area,Open Lot,No,No,16.2,4,14,5,45.11
+PS0058,Business District,Open Lot,No,Yes,5.3,1,22,5,48.19
+PS0059,Residential,Commercial,No,No,16.1,1,4,3,40.9
+PS0060,Residential,Apartment,No,No,6.3,4,13,1,54.6
+PS0061,Residential,Commercial,No,Yes,15.5,5,12,10,68.65
+PS0062,University Area,Commercial,Yes,No,4.3,4,15,1,73.73
+PS0063,University Area,Commercial,No,Yes,15.2,2,19,12,71.93
+PS0064,Suburban,Open Lot,Yes,Yes,11.7,2,14,3,40.84
+PS0065,Central,Commercial,No,No,4.2,3,10,8,85.47
+PS0066,University Area,Commercial,Yes,No,0.8,5,1,6,92.46
+PS0067,Residential,Open Lot,Yes,Yes,13.7,2,6,1,45.33
+PS0068,University Area,Open Lot,Yes,Yes,8.6,3,11,3,57.57
+PS0069,Suburban,Open Lot,Yes,Yes,17.4,1,18,1,49.91
+PS0070,University Area,Commercial,Yes,Yes,10.9,2,3,5,66.17
+PS0071,Suburban,Apartment,Yes,No,9.8,3,2,12,41.68
+PS0072,University Area,Commercial,Yes,No,17.3,4,22,3,68.36
+PS0073,University Area,Apartment,No,No,8.6,5,8,6,69.74
+PS0074,Central,Commercial,No,Yes,13.6,5,19,8,91.44
+PS0075,Business District,Apartment,No,No,3.7,2,11,5,55.5
+PS0076,Business District,Open Lot,Yes,Yes,2.0,4,15,12,91.09
+PS0077,Residential,Open Lot,No,No,8.3,1,2,5,28.72
+PS0078,Business District,Open Lot,No,No,10.2,3,13,12,61.55
+PS0079,Business District,Commercial,No,No,5.9,2,3,4,63.98
+PS0080,Residential,Apartment,Yes,No,5.3,5,16,5,69.31
+PS0081,Central,Apartment,No,Yes,6.8,3,0,12,78.63
+PS0082,Central,Open Lot,No,Yes,11.7,4,3,1,74.09
+PS0083,Suburban,Commercial,No,No,8.2,2,1,5,42.75
+PS0084,Central,Commercial,No,Yes,10.6,1,4,3,72.94
+PS0085,Suburban,Commercial,Yes,Yes,2.6,4,19,4,76.71
+PS0086,University Area,Commercial,No,No,10.5,1,19,2,50.17
+PS0087,Residential,Open Lot,Yes,No,12.1,2,7,3,37.24
+PS0088,University Area,Commercial,No,No,1.1,3,22,5,61.18
+PS0089,University Area,Apartment,Yes,No,14.3,5,21,4,59.41
+PS0090,Residential,Commercial,Yes,Yes,1.5,3,19,5,83.64
+PS0091,University Area,Apartment,No,No,12.7,3,16,12,44.95
+PS0092,Central,Commercial,No,No,1.0,2,21,1,78.28
+PS0093,Business District,Open Lot,Yes,Yes,8.7,4,8,3,90.39
+PS0094,University Area,Apartment,No,No,7.6,3,21,2,48.82
+PS0095,Residential,Commercial,No,No,5.5,4,17,1,59.43
+PS0096,Business District,Apartment,No,Yes,12.0,5,14,8,77.22
+PS0097,Central,Apartment,No,No,11.4,1,6,5,48.08
+PS0098,University Area,Open Lot,No,Yes,1.0,5,7,3,60.71
+PS0099,Business District,Open Lot,Yes,No,2.1,1,14,2,60.59
+PS0100,Business District,Open Lot,No,No,15.1,4,7,10,55.69
+PS0101,Suburban,Apartment,No,Yes,16.6,5,23,3,50.64
+PS0102,University Area,Commercial,No,Yes,5.4,3,18,10,71.65
+PS0103,Residential,Commercial,No,No,6.3,5,12,10,68.17
+PS0104,Residential,Open Lot,No,Yes,15.5,4,1,6,41.87
+PS0105,University Area,Open Lot,No,No,17.8,2,15,1,46.1
+PS0106,Business District,Apartment,No,Yes,9.7,4,0,3,81.48
+PS0107,University Area,Open Lot,Yes,Yes,8.7,3,10,8,62.29
+PS0108,Suburban,Commercial,No,No,15.8,1,19,2,32.1
+PS0109,Residential,Open Lot,No,Yes,13.6,4,3,2,38.78
+PS0110,Central,Apartment,No,Yes,5.6,3,13,3,81.19
+PS0111,Residential,Open Lot,No,Yes,3.5,1,19,8,44.49
+PS0112,Suburban,Apartment,Yes,No,11.7,4,8,1,51.46
+PS0113,University Area,Commercial,Yes,Yes,8.2,3,18,5,79.06
+PS0114,Business District,Commercial,No,Yes,18.0,4,3,4,75.97
+PS0115,University Area,Open Lot,No,No,17.9,3,0,8,40.01
+PS0116,Central,Open Lot,No,No,14.1,2,19,6,71.38
+PS0117,Residential,Open Lot,Yes,No,12.4,2,20,2,53.92
+PS0118,Business District,Commercial,Yes,No,13.3,1,9,6,73.89
+PS0119,University Area,Apartment,Yes,Yes,14.3,3,16,12,73.06
+PS0120,Business District,Commercial,No,No,14.6,4,2,3,67.13
+PS0121,Residential,Open Lot,No,No,2.1,4,0,5,38.96
+PS0122,Business District,Open Lot,No,No,2.4,2,15,1,54.83
+PS0123,Suburban,Open Lot,No,Yes,11.8,4,22,5,36.53
+PS0124,Central,Apartment,No,No,2.5,2,17,3,74.99
+PS0125,University Area,Commercial,No,No,10.8,2,13,2,54.47
+PS0126,Business District,Apartment,No,Yes,8.3,2,11,2,59.38
+PS0127,Business District,Open Lot,No,Yes,7.5,2,3,10,62.9
+PS0128,Suburban,Apartment,Yes,No,4.8,2,18,4,52.04
+PS0129,Central,Open Lot,Yes,Yes,14.7,2,10,3,84.62
+PS0130,Business District,Apartment,Yes,No,14.5,1,21,1,55.47
+PS0131,Residential,Apartment,No,Yes,10.8,1,5,5,47.79
+PS0132,Suburban,Apartment,Yes,No,8.3,3,16,2,46.02
+PS0133,University Area,Open Lot,Yes,Yes,13.2,5,9,10,74.22
+PS0134,University Area,Commercial,No,Yes,9.1,4,2,2,66.73
+PS0135,Business District,Open Lot,Yes,Yes,2.7,5,20,12,92.69
+PS0136,Suburban,Open Lot,No,No,9.3,4,3,2,25.8
+PS0137,Suburban,Open Lot,Yes,No,8.4,2,13,6,35.64
+PS0138,Central,Commercial,No,No,12.1,3,4,10,70.54
+PS0139,Central,Apartment,Yes,Yes,8.1,3,4,12,98.17
+PS0140,Suburban,Commercial,Yes,No,6.7,4,23,1,61.25
+PS0141,Business District,Open Lot,No,No,2.3,5,6,3,66.19
+PS0142,Central,Commercial,No,Yes,13.8,5,7,8,88.03
+PS0143,Suburban,Open Lot,Yes,No,1.0,3,22,5,47.3
+PS0144,Residential,Apartment,No,Yes,3.0,1,2,12,43.4
+PS0145,Residential,Commercial,No,No,6.5,3,9,6,59.89
+PS0146,Central,Apartment,Yes,Yes,13.7,1,21,2,70.62
+PS0147,Business District,Commercial,No,No,11.1,4,8,4,80.08
+PS0148,University Area,Apartment,No,No,9.7,3,1,4,44.78
+PS0149,University Area,Open Lot,Yes,Yes,4.1,2,4,5,59.1
+PS0150,University Area,Open Lot,No,Yes,2.8,5,22,4,65.21
+PS0151,Suburban,Open Lot,No,Yes,7.4,1,13,1,26.13
+PS0152,Business District,Open Lot,No,No,12.9,4,9,2,66.5
+PS0153,University Area,Apartment,No,Yes,14.5,5,14,6,71.2
+PS0154,Residential,Commercial,No,Yes,7.4,3,23,6,63.15
+PS0155,Residential,Commercial,Yes,Yes,9.4,1,16,12,61.47
+PS0156,Business District,Open Lot,Yes,Yes,2.3,3,6,3,86.28
+PS0157,Suburban,Apartment,Yes,Yes,17.1,4,14,10,49.67
+PS0158,Suburban,Commercial,No,Yes,8.2,4,14,5,44.05
+PS0159,Business District,Open Lot,Yes,No,9.4,3,14,10,69.14
+PS0160,Business District,Apartment,Yes,No,8.6,5,23,1,80.24
+PS0161,University Area,Open Lot,Yes,No,11.1,5,4,1,50.31
+PS0162,Business District,Open Lot,Yes,Yes,1.2,4,14,12,85.83
+PS0163,Suburban,Open Lot,Yes,No,7.0,3,12,8,39.55
+PS0164,Central,Open Lot,No,Yes,6.3,5,21,8,72.51
+PS0165,Business District,Commercial,Yes,No,1.9,2,11,5,88.06
+PS0166,University Area,Apartment,Yes,No,10.3,3,4,12,55.44
+PS0167,Central,Open Lot,No,No,0.8,3,5,4,63.71
+PS0168,Residential,Apartment,Yes,Yes,1.9,1,16,12,63.63
+PS0169,Suburban,Apartment,No,Yes,11.0,2,5,3,40.2
+PS0170,Residential,Open Lot,No,Yes,7.7,2,14,5,32.35
+PS0171,University Area,Apartment,Yes,No,17.4,4,6,6,58.17
+PS0172,University Area,Commercial,No,No,9.3,4,5,4,53.71
+PS0173,Suburban,Apartment,No,Yes,11.7,3,17,2,46.55
+PS0174,Central,Commercial,Yes,Yes,5.3,5,4,8,98.91
+PS0175,Central,Apartment,No,No,16.8,4,1,8,67.33
+PS0176,Central,Commercial,Yes,Yes,6.1,1,22,6,88.07
+PS0177,Residential,Apartment,Yes,No,16.6,4,22,3,54.31
+PS0178,Suburban,Apartment,Yes,Yes,5.0,2,17,12,52.38
+PS0179,University Area,Apartment,No,Yes,5.8,1,7,8,45.87
+PS0180,Central,Apartment,No,Yes,11.6,5,7,3,77.65
+PS0181,Business District,Commercial,Yes,No,4.7,4,5,2,81.56
+PS0182,Suburban,Open Lot,Yes,No,15.8,1,20,8,35.3
+PS0183,Business District,Commercial,Yes,No,14.3,3,7,2,79.1
+PS0184,Business District,Apartment,Yes,No,10.1,2,21,10,57.92
+PS0185,University Area,Open Lot,Yes,Yes,1.6,4,1,5,72.37
+PS0186,Central,Commercial,No,No,17.8,5,15,5,91.44
+PS0187,Central,Open Lot,Yes,No,6.7,1,20,6,72.34
+PS0188,University Area,Commercial,No,No,6.4,2,15,10,62.75
+PS0189,Business District,Open Lot,No,Yes,13.2,1,13,3,49.78
+PS0190,Central,Commercial,No,No,8.3,4,5,10,79.12
+PS0191,Business District,Commercial,Yes,No,11.3,4,8,1,96.35
+PS0192,Business District,Open Lot,Yes,Yes,3.0,5,21,10,88.84
+PS0193,Central,Apartment,Yes,Yes,14.1,3,11,8,86.22
+PS0194,Residential,Open Lot,No,No,7.0,1,18,3,36.0
+PS0195,Suburban,Commercial,No,No,11.9,2,3,1,35.47
+PS0196,University Area,Open Lot,Yes,No,14.1,4,6,5,49.14
+PS0197,University Area,Apartment,Yes,Yes,15.4,4,5,10,78.12
+PS0198,Business District,Open Lot,No,Yes,10.1,3,9,3,69.84
+PS0199,Residential,Commercial,Yes,Yes,17.7,2,7,10,68.27
+PS0200,Business District,Commercial,Yes,Yes,1.7,4,22,10,97.68
+PS0201,Suburban,Commercial,No,Yes,2.7,3,20,2,54.66
+PS0202,Business District,Apartment,Yes,Yes,8.1,1,3,12,73.85
+PS0203,Residential,Commercial,Yes,Yes,6.1,2,11,12,72.76
+PS0204,Business District,Apartment,No,Yes,11.4,5,17,2,78.07
+PS0205,Suburban,Open Lot,Yes,Yes,3.5,5,23,6,60.74
+PS0206,Central,Apartment,Yes,No,11.9,5,13,1,79.62
+PS0207,University Area,Open Lot,No,No,9.0,4,9,10,55.38
+PS0208,University Area,Commercial,No,No,4.1,5,4,6,68.5
+PS0209,Business District,Open Lot,No,No,2.8,3,16,12,62.68
+PS0210,Central,Commercial,No,Yes,3.0,1,9,8,90.9
+PS0211,Suburban,Commercial,Yes,Yes,14.7,5,23,6,67.09
+PS0212,Suburban,Commercial,No,No,9.2,1,12,12,35.38
+PS0213,University Area,Apartment,Yes,No,1.4,3,15,10,63.74
+PS0214,Central,Commercial,Yes,No,13.2,4,11,1,89.62
+PS0215,University Area,Apartment,Yes,No,10.2,1,12,12,42.99
+PS0216,Suburban,Open Lot,Yes,Yes,17.6,4,11,6,49.94
+PS0217,Suburban,Commercial,Yes,Yes,11.0,4,16,1,64.61
+PS0218,Business District,Commercial,No,Yes,11.1,5,4,6,84.76
+PS0219,Suburban,Commercial,Yes,No,17.8,3,18,6,52.04
+PS0220,University Area,Open Lot,No,No,14.8,3,10,2,48.73
+PS0221,University Area,Open Lot,No,Yes,10.9,3,20,4,55.82
+PS0222,Residential,Open Lot,No,Yes,14.9,2,1,2,31.49
+PS0223,Residential,Apartment,No,No,7.8,4,22,4,38.46
+PS0224,University Area,Open Lot,Yes,Yes,9.6,5,10,10,79.93
+PS0225,Suburban,Commercial,No,Yes,8.5,5,10,12,59.96
+PS0226,Business District,Open Lot,No,Yes,17.3,3,17,5,76.82
+PS0227,Residential,Commercial,No,Yes,12.6,4,10,10,61.22
+PS0228,Business District,Commercial,Yes,No,16.2,4,11,3,91.47
+PS0229,Business District,Apartment,No,Yes,6.6,4,20,5,82.66
+PS0230,Suburban,Commercial,No,Yes,2.4,5,7,4,58.61
+PS0231,Central,Open Lot,Yes,Yes,1.4,4,10,10,104.81
+PS0232,Central,Open Lot,Yes,No,11.9,4,15,4,80.07
+PS0233,Business District,Commercial,No,Yes,16.4,1,20,4,68.18
+PS0234,Central,Apartment,No,Yes,16.8,1,12,10,65.24
+PS0235,Residential,Open Lot,No,Yes,0.7,5,19,2,69.51
+PS0236,University Area,Open Lot,No,Yes,15.4,4,8,4,59.04
+PS0237,Central,Commercial,Yes,No,11.8,2,0,6,82.64
+PS0238,Residential,Apartment,No,No,9.5,1,12,2,26.14
+PS0239,Residential,Apartment,No,No,16.9,1,8,8,40.76
+PS0240,Business District,Commercial,Yes,No,11.9,2,1,2,82.34
+PS0241,University Area,Commercial,Yes,No,12.5,3,22,2,57.35
+PS0242,Business District,Open Lot,Yes,Yes,17.3,4,4,10,66.91
+PS0243,Suburban,Commercial,No,No,13.8,2,7,2,29.95
+PS0244,Business District,Apartment,Yes,Yes,15.0,5,6,12,85.02
+PS0245,Residential,Apartment,No,No,2.5,2,22,10,47.03
+PS0246,Central,Commercial,Yes,No,8.5,1,17,10,89.43
+PS0247,Business District,Open Lot,Yes,No,5.0,1,23,4,58.66
+PS0248,Business District,Open Lot,Yes,Yes,16.9,1,15,1,63.28
+PS0249,Business District,Commercial,Yes,Yes,13.9,4,11,8,79.42
+PS0250,University Area,Commercial,Yes,Yes,11.9,3,3,3,76.55
+PS0251,Suburban,Commercial,Yes,Yes,15.1,1,9,10,55.1
+PS0252,Suburban,Commercial,Yes,Yes,8.6,2,8,4,57.56
+PS0253,Central,Apartment,No,Yes,4.7,1,3,1,64.19
+PS0254,Central,Apartment,Yes,No,8.2,5,6,1,88.91
+PS0255,Residential,Open Lot,No,Yes,14.8,5,10,6,58.84
+PS0256,Suburban,Apartment,No,No,5.3,5,18,3,61.95
+PS0257,University Area,Open Lot,No,Yes,17.5,4,16,6,51.3
+PS0258,Business District,Commercial,Yes,No,4.7,2,9,3,81.41
+PS0259,University Area,Apartment,No,No,10.3,2,12,4,42.86
+PS0260,Central,Commercial,No,Yes,9.9,2,1,5,83.55
+PS0261,University Area,Open Lot,Yes,Yes,3.8,5,23,12,72.66
+PS0262,Business District,Commercial,Yes,Yes,16.9,1,23,10,81.35
+PS0263,Residential,Open Lot,Yes,No,16.5,5,10,5,55.48
+PS0264,Business District,Commercial,No,No,9.5,4,14,2,76.61
+PS0265,University Area,Commercial,Yes,No,6.0,1,18,4,68.15
+PS0266,Suburban,Open Lot,No,No,3.2,3,7,8,30.54
+PS0267,Suburban,Apartment,No,No,5.0,4,23,10,32.12
+PS0268,Business District,Apartment,Yes,No,3.7,5,20,1,93.02
+PS0269,Suburban,Apartment,Yes,Yes,13.9,4,4,4,56.6
+PS0270,Residential,Open Lot,No,No,1.6,5,15,10,49.91
+PS0271,Central,Apartment,No,Yes,0.8,3,17,5,99.47
+PS0272,University Area,Apartment,Yes,Yes,9.7,2,6,12,62.22
+PS0273,Business District,Commercial,No,No,1.9,4,14,4,82.05
+PS0274,Central,Open Lot,Yes,Yes,7.6,4,17,10,92.7
+PS0275,Central,Open Lot,Yes,Yes,1.9,4,20,6,88.44
+PS0276,Central,Open Lot,Yes,Yes,4.2,5,15,5,87.67
+PS0277,Central,Apartment,No,Yes,3.6,3,0,4,72.99
+PS0278,University Area,Apartment,No,Yes,10.4,5,12,12,58.66
+PS0279,Business District,Commercial,Yes,Yes,9.3,3,1,2,77.75
+PS0280,Business District,Open Lot,No,No,1.0,3,14,10,64.88
+PS0281,Residential,Commercial,No,No,3.8,5,21,8,66.92
+PS0282,Residential,Open Lot,Yes,Yes,5.2,4,22,3,63.4
+PS0283,University Area,Commercial,No,Yes,2.1,3,14,6,69.49
+PS0284,Central,Apartment,No,No,10.2,5,13,2,72.68
+PS0285,Central,Apartment,No,Yes,10.9,3,12,1,73.71
+PS0286,Central,Open Lot,Yes,Yes,12.5,2,4,5,79.78
+PS0287,Business District,Commercial,No,Yes,1.6,4,8,8,92.03
+PS0288,Business District,Commercial,Yes,No,10.9,2,14,2,82.31
+PS0289,Residential,Commercial,Yes,No,6.3,5,12,6,64.02
+PS0290,Suburban,Apartment,No,No,11.1,2,15,6,29.95
+PS0291,Residential,Commercial,No,No,13.4,4,18,4,58.14
+PS0292,University Area,Commercial,Yes,Yes,10.9,5,5,12,84.6
+PS0293,Central,Open Lot,No,Yes,8.2,3,22,2,74.18
+PS0294,University Area,Open Lot,No,Yes,11.6,2,8,3,44.91
+PS0295,University Area,Commercial,Yes,No,17.8,4,18,8,65.93
+PS0296,University Area,Open Lot,Yes,No,12.8,5,19,2,64.57
+PS0297,Central,Apartment,No,Yes,11.8,1,18,8,79.39
+PS0298,University Area,Apartment,Yes,Yes,5.0,5,23,12,76.07
+PS0299,Suburban,Open Lot,Yes,No,7.0,4,21,12,52.58
+PS0300,University Area,Apartment,No,No,16.6,1,3,3,53.15
+PS0301,Business District,Commercial,No,No,14.2,5,15,6,70.69
+PS0302,University Area,Commercial,Yes,No,1.3,1,0,6,64.76
+PS0303,Central,Open Lot,Yes,Yes,9.5,5,5,6,75.67
+PS0304,Residential,Commercial,Yes,Yes,11.7,4,12,1,65.37
+PS0305,Suburban,Apartment,No,No,7.3,2,6,5,30.29
+PS0306,Central,Open Lot,Yes,Yes,6.9,2,14,2,68.39
+PS0307,Business District,Open Lot,No,No,10.9,5,12,2,56.42
+PS0308,Suburban,Apartment,No,Yes,12.3,3,3,4,47.89
+PS0309,Business District,Apartment,Yes,No,12.6,5,12,8,72.62
+PS0310,University Area,Apartment,No,Yes,10.2,4,9,3,63.28
+PS0311,Residential,Commercial,No,Yes,15.6,1,15,3,49.66
+PS0312,Suburban,Open Lot,No,No,12.5,4,22,10,34.63
+PS0313,University Area,Apartment,Yes,Yes,14.4,2,9,1,68.03
+PS0314,Residential,Commercial,No,Yes,10.5,3,17,6,70.13
+PS0315,Suburban,Apartment,No,Yes,17.8,1,23,4,26.37
+PS0316,University Area,Commercial,No,Yes,8.2,1,7,4,74.67
+PS0317,Suburban,Open Lot,No,No,3.4,2,6,4,29.5
+PS0318,Suburban,Commercial,Yes,No,17.6,3,9,5,51.89
+PS0319,Suburban,Open Lot,Yes,Yes,17.3,4,1,5,49.75
+PS0320,Residential,Apartment,Yes,No,15.0,4,15,3,52.07
+PS0321,Suburban,Open Lot,No,No,7.1,1,20,2,21.5
+PS0322,Business District,Commercial,No,No,10.7,1,23,10,64.77
+PS0323,Business District,Apartment,No,Yes,17.4,2,15,5,62.2
+PS0324,Suburban,Open Lot,Yes,No,14.3,1,1,2,31.66
+PS0325,University Area,Apartment,Yes,Yes,8.2,1,13,4,69.39
+PS0326,Business District,Apartment,No,Yes,12.0,3,2,6,67.7
+PS0327,Residential,Apartment,No,No,13.2,2,13,2,35.93
+PS0328,University Area,Apartment,Yes,Yes,9.6,4,0,1,69.1
+PS0329,Business District,Apartment,No,Yes,8.9,2,12,2,64.6
+PS0330,Business District,Commercial,No,Yes,7.2,2,20,3,79.93
+PS0331,Central,Open Lot,Yes,Yes,8.2,2,20,3,90.5
+PS0332,University Area,Apartment,Yes,Yes,3.0,1,18,8,67.26
+PS0333,Business District,Commercial,No,Yes,4.8,1,7,12,65.72
+PS0334,Business District,Open Lot,Yes,No,4.1,5,16,4,71.98
+PS0335,University Area,Commercial,Yes,Yes,9.2,1,7,10,64.4
+PS0336,Central,Commercial,No,Yes,7.3,5,13,6,91.7
+PS0337,Suburban,Open Lot,Yes,No,17.2,1,0,2,31.47
+PS0338,Central,Commercial,No,No,7.9,4,2,12,80.98
+PS0339,Suburban,Open Lot,Yes,No,2.0,1,16,4,37.27
+PS0340,Business District,Commercial,Yes,No,12.7,2,1,4,73.53
+PS0341,Central,Commercial,Yes,No,11.2,1,9,3,90.74
+PS0342,Central,Apartment,No,No,9.7,3,5,6,72.59
+PS0343,Residential,Open Lot,No,Yes,14.0,1,10,8,41.75
+PS0344,Suburban,Open Lot,Yes,No,8.5,3,1,10,39.0
+PS0345,Suburban,Apartment,No,Yes,5.0,1,18,2,44.81
+PS0346,Central,Apartment,Yes,Yes,8.8,4,4,3,95.87
+PS0347,Central,Open Lot,No,Yes,6.1,4,23,6,75.85
+PS0348,Business District,Apartment,Yes,Yes,4.4,5,1,8,92.48
+PS0349,Central,Commercial,No,No,6.2,5,14,1,83.22
+PS0350,Business District,Open Lot,Yes,No,6.9,4,6,12,73.53
+PS0351,Residential,Apartment,Yes,No,0.9,5,11,1,65.54
+PS0352,University Area,Open Lot,No,Yes,4.1,2,13,10,49.64
+PS0353,Central,Apartment,No,Yes,1.3,2,16,8,76.49
+PS0354,Central,Open Lot,Yes,Yes,11.7,4,2,1,78.4
+PS0355,University Area,Open Lot,Yes,Yes,5.6,3,12,6,60.87
+PS0356,Central,Apartment,Yes,Yes,3.2,2,14,10,90.06
+PS0357,Business District,Commercial,Yes,No,17.4,2,14,5,64.48
+PS0358,Central,Apartment,No,Yes,4.3,3,4,2,81.79
+PS0359,Residential,Commercial,No,Yes,12.4,3,5,1,65.38
+PS0360,Suburban,Open Lot,Yes,Yes,8.6,2,3,1,38.21
+PS0361,Central,Apartment,Yes,Yes,14.9,3,21,2,81.64
+PS0362,Central,Apartment,Yes,Yes,16.3,4,4,2,87.09
+PS0363,Business District,Apartment,Yes,No,1.4,5,13,8,79.97
+PS0364,University Area,Apartment,No,Yes,16.4,3,8,10,63.12
+PS0365,Residential,Apartment,Yes,No,9.2,5,15,1,62.83
+PS0366,University Area,Apartment,Yes,Yes,17.8,3,15,12,67.57
+PS0367,University Area,Commercial,No,No,5.2,1,10,4,67.81
+PS0368,Business District,Apartment,No,No,13.9,2,5,2,57.67
+PS0369,Residential,Open Lot,Yes,No,9.8,1,7,8,30.31
+PS0370,Residential,Apartment,Yes,No,14.6,3,18,1,65.56
+PS0371,Business District,Open Lot,Yes,Yes,15.1,4,17,5,84.63
+PS0372,Central,Apartment,Yes,Yes,9.7,1,10,4,86.48
+PS0373,Residential,Commercial,Yes,No,1.5,2,18,3,70.28
+PS0374,Business District,Apartment,No,No,10.8,3,9,6,58.43
+PS0375,Residential,Apartment,No,No,11.9,2,22,12,32.01
+PS0376,Business District,Apartment,Yes,No,5.9,3,4,3,62.5
+PS0377,Central,Open Lot,No,Yes,3.7,3,19,4,80.54
+PS0378,University Area,Apartment,No,Yes,4.7,3,5,2,57.44
+PS0379,Business District,Commercial,Yes,No,4.2,1,11,5,76.48
+PS0380,Central,Commercial,No,No,17.5,4,15,8,71.23
+PS0381,Business District,Open Lot,No,Yes,15.0,5,20,4,79.02
+PS0382,Central,Commercial,Yes,No,5.1,1,2,6,82.59
+PS0383,Residential,Commercial,Yes,Yes,10.1,1,10,10,64.5
+PS0384,Residential,Open Lot,No,Yes,1.4,3,6,4,43.78
+PS0385,University Area,Open Lot,No,No,5.7,1,1,8,27.83
+PS0386,Residential,Apartment,No,Yes,8.0,3,21,10,45.43
+PS0387,Residential,Apartment,Yes,Yes,3.5,3,2,10,65.59
+PS0388,University Area,Commercial,No,No,2.1,5,12,3,65.75
+PS0389,Business District,Commercial,No,Yes,8.3,3,14,10,76.56
+PS0390,Suburban,Apartment,Yes,Yes,2.0,3,17,8,73.89
+PS0391,Suburban,Apartment,Yes,No,14.8,4,17,10,50.71
+PS0392,Business District,Apartment,No,Yes,9.3,5,18,3,82.94
+PS0393,Central,Commercial,Yes,Yes,17.5,2,4,1,75.78
+PS0394,University Area,Apartment,Yes,No,6.1,1,2,8,59.02
+PS0395,Suburban,Commercial,No,No,9.6,1,22,12,32.8
+PS0396,Residential,Apartment,Yes,Yes,10.3,1,9,12,55.61
+PS0397,Business District,Commercial,No,No,12.0,5,19,10,87.9
+PS0398,Residential,Open Lot,No,Yes,7.4,3,22,4,45.02
+PS0399,Central,Open Lot,No,No,16.2,1,10,5,57.41
+PS0400,Central,Apartment,Yes,No,17.5,4,10,5,97.92
+PS0401,University Area,Open Lot,Yes,Yes,8.2,4,23,10,65.04
+PS0402,Central,Open Lot,Yes,Yes,5.9,5,12,3,80.25
+PS0403,Suburban,Open Lot,Yes,Yes,3.9,2,1,4,46.46
+PS0404,Business District,Open Lot,Yes,No,6.9,4,16,8,70.81
+PS0405,Central,Open Lot,Yes,Yes,7.0,5,14,3,94.9
+PS0406,Suburban,Commercial,No,Yes,15.2,3,23,2,46.61
+PS0407,Business District,Apartment,No,Yes,3.4,5,6,4,76.76
+PS0408,Business District,Open Lot,No,Yes,15.6,1,15,3,47.99
+PS0409,Residential,Open Lot,Yes,Yes,4.9,3,22,5,51.77
+PS0410,Business District,Commercial,No,Yes,8.7,5,19,8,95.28
+PS0411,Suburban,Apartment,Yes,No,10.3,5,19,5,57.28
+PS0412,Central,Commercial,No,No,15.6,3,20,5,85.28
+PS0413,Residential,Apartment,Yes,Yes,14.6,5,12,6,62.63
+PS0414,University Area,Commercial,No,No,7.6,1,18,4,49.67
+PS0415,Business District,Open Lot,Yes,No,16.4,3,16,5,69.41
+PS0416,Suburban,Apartment,No,Yes,8.7,3,23,12,33.13
+PS0417,Residential,Open Lot,No,Yes,4.4,2,23,5,33.32
+PS0418,Business District,Commercial,No,No,15.4,4,1,2,77.0
+PS0419,University Area,Apartment,Yes,No,9.8,4,1,3,63.33
+PS0420,University Area,Open Lot,No,Yes,6.0,2,2,10,50.74
+PS0421,Business District,Open Lot,Yes,No,11.6,1,14,5,58.18
+PS0422,Suburban,Apartment,No,Yes,2.8,4,20,8,66.1
+PS0423,University Area,Commercial,No,No,0.6,5,6,6,80.55
+PS0424,Suburban,Apartment,Yes,Yes,11.5,2,7,6,42.74
+PS0425,Business District,Apartment,Yes,No,9.3,3,5,2,72.44
+PS0426,Business District,Commercial,No,No,16.0,2,10,10,68.24
+PS0427,Business District,Apartment,Yes,No,0.8,2,23,3,73.61
+PS0428,Suburban,Apartment,Yes,No,12.9,1,12,5,35.02
+PS0429,Suburban,Open Lot,Yes,Yes,12.1,1,1,2,31.76
+PS0430,Suburban,Commercial,No,Yes,4.1,1,9,8,55.16
+PS0431,Central,Open Lot,No,Yes,7.8,1,16,2,60.97
+PS0432,University Area,Apartment,Yes,No,15.1,2,11,8,61.58
+PS0433,Business District,Apartment,Yes,No,16.4,4,10,4,89.46
+PS0434,Central,Open Lot,No,Yes,17.1,5,2,2,77.13
+PS0435,Business District,Open Lot,Yes,No,17.8,3,8,10,80.71
+PS0436,Central,Commercial,No,No,8.0,1,3,1,71.43
+PS0437,Central,Apartment,Yes,No,6.8,4,19,5,93.16
+PS0438,Business District,Apartment,Yes,No,7.5,4,8,8,82.47
+PS0439,University Area,Commercial,Yes,Yes,2.8,1,5,2,64.99
+PS0440,Suburban,Open Lot,No,Yes,11.2,3,19,1,45.37
+PS0441,Residential,Commercial,No,Yes,16.0,4,1,2,59.68
+PS0442,Suburban,Open Lot,Yes,No,9.6,5,3,8,48.65
+PS0443,Residential,Commercial,No,No,3.1,5,19,1,81.16
+PS0444,Suburban,Commercial,No,Yes,1.8,4,10,4,67.41
+PS0445,Business District,Commercial,Yes,Yes,10.1,4,12,4,94.77
+PS0446,Suburban,Commercial,Yes,No,8.3,1,15,1,45.94
+PS0447,Central,Commercial,No,Yes,10.2,1,2,5,79.96
+PS0448,University Area,Commercial,No,Yes,14.8,4,10,12,70.91
+PS0449,Suburban,Open Lot,No,No,13.0,1,3,4,22.68
+PS0450,Business District,Open Lot,No,Yes,1.3,2,15,3,65.02
+PS0451,University Area,Apartment,No,Yes,3.8,4,6,10,65.43
+PS0452,Business District,Apartment,No,Yes,16.7,5,3,10,73.1
+PS0453,University Area,Open Lot,Yes,No,0.6,1,17,8,61.56
+PS0454,Suburban,Apartment,Yes,Yes,2.3,5,19,6,67.29
+PS0455,Suburban,Commercial,No,Yes,5.3,3,9,10,60.68
+PS0456,Suburban,Open Lot,No,No,13.0,5,20,4,39.43
+PS0457,Residential,Apartment,No,No,16.6,2,22,3,28.3
+PS0458,Business District,Open Lot,Yes,No,10.3,5,18,8,79.81
+PS0459,Suburban,Commercial,No,Yes,9.6,1,12,3,41.93
+PS0460,Business District,Apartment,No,No,3.1,1,22,5,58.08
+PS0461,Residential,Open Lot,Yes,No,14.7,1,19,12,49.44
+PS0462,Suburban,Commercial,Yes,No,12.6,1,12,8,35.82
+PS0463,University Area,Open Lot,No,Yes,0.7,3,6,10,61.74
+PS0464,Business District,Open Lot,Yes,Yes,5.6,2,21,2,61.87
+PS0465,Residential,Apartment,Yes,No,1.2,3,17,5,69.57
+PS0466,Business District,Apartment,No,No,12.9,2,1,3,60.83
+PS0467,Business District,Open Lot,Yes,No,9.1,5,17,6,87.75
+PS0468,Suburban,Apartment,Yes,Yes,14.3,2,13,12,49.47
+PS0469,Suburban,Commercial,Yes,No,4.4,2,21,6,48.45
+PS0470,Suburban,Open Lot,No,Yes,2.5,3,14,4,43.64
+PS0471,Suburban,Open Lot,Yes,Yes,12.4,3,12,2,39.3
+PS0472,Business District,Apartment,No,No,9.0,3,20,4,72.9
+PS0473,Business District,Open Lot,Yes,Yes,3.4,5,17,1,90.88
+PS0474,Residential,Open Lot,No,Yes,4.1,4,20,2,56.26
+PS0475,Residential,Apartment,No,No,1.2,1,1,3,40.79
+PS0476,Suburban,Apartment,No,No,7.3,4,13,6,32.02
+PS0477,Central,Commercial,Yes,Yes,11.7,5,2,1,100.41
+PS0478,Suburban,Apartment,No,No,11.1,3,14,8,30.15
+PS0479,University Area,Open Lot,Yes,No,3.2,2,4,8,55.26
+PS0480,Business District,Open Lot,Yes,No,12.4,3,0,12,54.69
+PS0481,Suburban,Apartment,Yes,Yes,0.6,5,12,12,63.5
+PS0482,Residential,Open Lot,No,Yes,7.7,5,4,3,51.22
+PS0483,Residential,Apartment,No,Yes,2.5,5,1,12,55.87
+PS0484,Business District,Open Lot,Yes,No,2.2,5,15,6,79.76
+PS0485,Business District,Apartment,Yes,Yes,5.5,1,6,6,69.16
+PS0486,Business District,Open Lot,Yes,No,14.6,4,5,1,68.4
+PS0487,Business District,Apartment,Yes,No,5.3,3,4,6,77.77
+PS0488,Business District,Commercial,No,Yes,3.6,5,2,5,85.25
+PS0489,Residential,Open Lot,Yes,No,13.3,1,23,2,43.58
+PS0490,Central,Open Lot,No,Yes,16.4,5,8,12,78.9
+PS0491,Suburban,Commercial,Yes,No,7.4,5,23,5,64.01
+PS0492,Central,Commercial,No,Yes,12.1,5,21,3,95.4
+PS0493,Suburban,Apartment,No,Yes,3.6,5,21,3,52.61
+PS0494,Business District,Apartment,Yes,No,4.6,3,11,4,68.59
+PS0495,Central,Open Lot,Yes,No,7.3,4,1,1,81.55
+PS0496,Suburban,Open Lot,No,No,10.6,5,5,8,33.46
+PS0497,University Area,Commercial,Yes,No,7.1,2,16,8,57.26
+PS0498,University Area,Commercial,Yes,Yes,8.2,2,2,12,78.47
+PS0499,Business District,Apartment,Yes,Yes,3.3,5,22,2,88.62
+PS0500,Business District,Open Lot,Yes,No,12.3,4,6,3,63.61
+PS0501,University Area,Apartment,Yes,Yes,2.7,5,5,3,77.87
+PS0502,Suburban,Apartment,Yes,Yes,5.0,2,16,8,48.97
+PS0503,Suburban,Open Lot,Yes,No,17.1,2,14,10,34.06
+PS0504,University Area,Open Lot,Yes,Yes,11.4,5,8,3,72.74
+PS0505,Business District,Commercial,Yes,Yes,7.1,2,3,1,87.24
+PS0506,Suburban,Open Lot,No,Yes,11.1,2,15,1,39.47
+PS0507,Suburban,Open Lot,Yes,Yes,8.9,2,19,12,53.87
+PS0508,University Area,Open Lot,No,No,15.8,5,13,4,39.58
+PS0509,University Area,Commercial,No,Yes,7.9,3,15,4,66.45
+PS0510,Suburban,Open Lot,No,No,3.8,1,18,12,29.84
+PS0511,Central,Open Lot,Yes,No,12.0,3,13,6,75.13
+PS0512,Suburban,Commercial,No,No,10.4,5,8,8,59.27
+PS0513,Residential,Commercial,No,Yes,7.0,5,15,5,72.95
+PS0514,University Area,Open Lot,Yes,Yes,13.6,4,22,3,62.53
+PS0515,Central,Apartment,No,No,14.5,5,22,1,81.87
+PS0516,Central,Apartment,Yes,No,16.7,4,2,2,91.94
+PS0517,Business District,Apartment,No,Yes,11.2,4,12,12,69.08
+PS0518,Central,Apartment,No,No,0.7,5,9,4,102.97
+PS0519,Central,Open Lot,Yes,Yes,12.3,3,7,1,81.11
+PS0520,Business District,Commercial,No,No,7.6,2,16,1,65.6
+PS0521,Central,Apartment,No,No,6.6,3,7,4,64.84
+PS0522,Central,Commercial,Yes,No,9.4,5,2,12,94.91
+PS0523,Business District,Commercial,Yes,No,15.8,5,8,10,100.29
+PS0524,Residential,Commercial,No,No,16.2,1,15,2,38.64
+PS0525,Business District,Apartment,No,Yes,12.3,2,10,8,77.79
+PS0526,Central,Open Lot,No,Yes,5.5,4,21,6,74.93
+PS0527,Central,Open Lot,Yes,No,6.0,2,18,5,81.59
+PS0528,Residential,Commercial,Yes,Yes,13.4,3,6,4,73.55
+PS0529,Residential,Apartment,No,Yes,14.1,1,2,10,33.58
+PS0530,Suburban,Apartment,No,No,11.4,4,18,5,38.43
+PS0531,University Area,Apartment,No,No,4.4,5,4,1,54.3
+PS0532,Suburban,Apartment,No,No,15.6,2,14,2,27.16
+PS0533,Suburban,Commercial,No,Yes,0.7,2,12,2,48.3
+PS0534,Business District,Apartment,No,Yes,5.2,5,10,6,93.97
+PS0535,Residential,Commercial,No,Yes,7.8,3,11,8,57.18
+PS0536,Residential,Open Lot,Yes,Yes,13.1,2,17,8,59.09
+PS0537,University Area,Apartment,Yes,Yes,8.8,1,5,8,41.5
+PS0538,Suburban,Open Lot,No,No,5.8,5,18,1,45.4
+PS0539,University Area,Apartment,Yes,Yes,4.3,3,15,2,65.27
+PS0540,Business District,Commercial,No,No,0.8,1,11,4,68.76
+PS0541,Suburban,Open Lot,Yes,No,6.7,5,15,10,50.41
+PS0542,Business District,Commercial,Yes,Yes,11.7,3,13,8,82.87
+PS0543,Central,Apartment,Yes,No,4.5,3,20,5,87.72
+PS0544,University Area,Commercial,No,No,13.6,5,14,8,56.39
+PS0545,Residential,Apartment,Yes,Yes,13.2,3,23,2,59.23
+PS0546,Central,Apartment,No,Yes,1.0,4,16,2,91.08
+PS0547,Central,Commercial,Yes,Yes,12.0,4,9,4,105.07
+PS0548,Residential,Apartment,Yes,Yes,1.1,3,10,10,77.21
+PS0549,University Area,Open Lot,No,No,2.9,5,5,10,49.85
+PS0550,Suburban,Commercial,No,No,8.9,2,2,10,31.67
+PS0551,Business District,Commercial,No,No,3.2,1,0,12,69.32
+PS0552,Business District,Commercial,No,Yes,12.5,4,15,5,71.1
+PS0553,Central,Commercial,No,Yes,14.4,5,11,4,85.55
+PS0554,University Area,Apartment,Yes,No,15.0,2,8,2,64.38
+PS0555,University Area,Open Lot,Yes,No,5.5,5,8,8,71.32
+PS0556,Residential,Commercial,Yes,No,11.3,3,22,10,59.74
+PS0557,Residential,Commercial,Yes,Yes,1.4,5,0,3,84.89
+PS0558,Residential,Open Lot,No,Yes,4.6,2,0,10,41.62
+PS0559,Residential,Commercial,No,No,14.3,4,11,10,51.58
+PS0560,Central,Apartment,Yes,No,14.1,1,17,10,75.8
+PS0561,Residential,Apartment,No,No,15.0,1,22,4,21.83
+PS0562,Residential,Open Lot,Yes,Yes,8.6,1,16,4,54.11
+PS0563,University Area,Commercial,No,No,3.3,1,23,12,48.57
+PS0564,Business District,Apartment,No,Yes,15.6,2,3,4,63.5
+PS0565,University Area,Commercial,Yes,Yes,14.4,5,3,8,81.16
+PS0566,Central,Open Lot,No,Yes,7.0,1,7,3,62.75
+PS0567,University Area,Apartment,No,Yes,1.5,2,22,12,58.47
+PS0568,Residential,Commercial,No,No,13.3,1,22,8,37.49
+PS0569,Business District,Open Lot,Yes,No,16.2,4,22,10,62.17
+PS0570,University Area,Apartment,Yes,No,6.2,4,8,12,69.77
+PS0571,Residential,Apartment,Yes,No,5.7,3,17,6,53.15
+PS0572,Suburban,Commercial,Yes,Yes,11.3,3,19,4,68.46
+PS0573,Business District,Open Lot,Yes,No,3.8,4,17,3,77.61
+PS0574,Business District,Apartment,Yes,Yes,1.3,2,5,1,78.08
+PS0575,Residential,Apartment,No,Yes,2.2,5,20,8,66.9
+PS0576,Suburban,Commercial,Yes,No,4.4,1,0,4,41.37
+PS0577,University Area,Apartment,No,Yes,6.8,4,11,1,63.31
+PS0578,Central,Open Lot,Yes,No,1.9,2,16,2,69.96
+PS0579,Central,Open Lot,Yes,No,3.8,5,21,4,72.98
+PS0580,Suburban,Open Lot,No,Yes,13.9,5,11,10,36.83
+PS0581,University Area,Apartment,Yes,Yes,10.1,5,10,3,74.39
+PS0582,Business District,Commercial,No,No,7.7,4,23,6,72.41
+PS0583,Suburban,Apartment,Yes,No,13.9,3,11,10,37.24
+PS0584,Central,Commercial,Yes,Yes,17.9,3,0,5,94.63
+PS0585,Residential,Apartment,No,Yes,14.0,3,17,12,45.3
+PS0586,Residential,Apartment,Yes,No,6.7,2,8,6,52.69
+PS0587,Suburban,Apartment,Yes,No,14.7,1,18,8,38.82
+PS0588,Central,Open Lot,No,No,3.5,5,3,5,72.73
+PS0589,Central,Open Lot,No,Yes,14.2,3,11,8,60.29
+PS0590,Residential,Open Lot,Yes,No,1.4,5,1,6,63.92
+PS0591,Suburban,Open Lot,Yes,No,9.3,2,4,1,24.6
+PS0592,University Area,Open Lot,Yes,Yes,8.1,4,4,3,49.23
+PS0593,Business District,Apartment,No,Yes,10.1,3,2,8,59.38
+PS0594,Residential,Apartment,No,Yes,9.0,5,6,12,56.7
+PS0595,Suburban,Open Lot,Yes,Yes,1.8,4,10,2,66.49
+PS0596,Business District,Commercial,Yes,No,6.5,1,9,3,84.16
+PS0597,Business District,Open Lot,No,Yes,8.2,2,6,6,63.94
+PS0598,Central,Apartment,Yes,Yes,17.1,2,9,1,95.71
+PS0599,Business District,Open Lot,Yes,No,8.4,1,10,4,65.06
+PS0600,Suburban,Open Lot,No,No,11.4,2,22,1,18.56
+PS0601,University Area,Open Lot,Yes,No,3.5,3,6,5,63.09
+PS0602,Central,Apartment,No,No,12.1,3,3,1,69.39
+PS0603,Business District,Open Lot,No,Yes,17.6,5,22,2,74.74
+PS0604,Suburban,Open Lot,Yes,Yes,4.0,4,17,1,57.53
+PS0605,Central,Apartment,No,No,9.1,2,0,6,61.84
+PS0606,Business District,Apartment,No,Yes,11.5,4,0,12,67.71
+PS0607,Business District,Apartment,Yes,No,16.2,2,2,8,58.54
+PS0608,Residential,Commercial,Yes,Yes,8.0,3,19,6,74.62
+PS0609,University Area,Open Lot,Yes,Yes,11.9,5,17,4,77.79
+PS0610,Suburban,Apartment,No,Yes,12.0,5,5,6,44.73
+PS0611,Central,Open Lot,Yes,Yes,6.1,2,23,1,79.12
+PS0612,University Area,Commercial,No,No,13.5,3,4,4,44.75
+PS0613,Central,Apartment,Yes,Yes,13.8,5,19,5,95.58
+PS0614,Suburban,Apartment,Yes,Yes,6.8,4,4,12,52.32
+PS0615,Suburban,Commercial,No,Yes,15.4,4,15,3,53.85
+PS0616,University Area,Apartment,No,No,4.4,2,6,2,50.55
+PS0617,Residential,Commercial,No,No,15.7,2,13,8,45.12
+PS0618,University Area,Open Lot,No,No,11.2,5,19,12,50.25
+PS0619,Suburban,Open Lot,Yes,Yes,8.4,1,7,12,23.32
+PS0620,Central,Open Lot,No,Yes,3.8,4,12,5,74.58
+PS0621,Business District,Commercial,Yes,No,5.7,1,22,12,78.03
+PS0622,University Area,Apartment,Yes,Yes,14.1,5,4,8,69.83
+PS0623,University Area,Commercial,No,Yes,3.6,5,22,4,77.73
+PS0624,Business District,Open Lot,Yes,Yes,2.1,4,20,6,88.86
+PS0625,Central,Open Lot,No,Yes,7.1,4,1,3,80.82
+PS0626,Residential,Apartment,Yes,Yes,14.0,1,13,5,46.62
+PS0627,Business District,Open Lot,No,No,11.5,1,4,4,54.51
+PS0628,Central,Commercial,No,No,10.0,1,19,10,75.19
+PS0629,Residential,Apartment,No,No,7.7,1,19,1,42.05
+PS0630,Suburban,Open Lot,Yes,Yes,3.7,1,20,6,55.33
+PS0631,Central,Apartment,Yes,No,6.3,1,1,2,69.24
+PS0632,Business District,Open Lot,Yes,No,13.6,3,1,2,65.56
+PS0633,Business District,Commercial,No,No,14.9,4,17,2,79.29
+PS0634,Business District,Commercial,No,Yes,12.7,5,1,2,86.59
+PS0635,Suburban,Open Lot,Yes,No,13.2,5,22,5,35.3
+PS0636,Business District,Open Lot,No,Yes,11.3,4,16,10,70.29
+PS0637,University Area,Apartment,Yes,No,17.6,1,3,1,40.29
+PS0638,Residential,Open Lot,No,No,1.3,3,17,4,50.91
+PS0639,Central,Open Lot,Yes,No,5.0,1,9,5,70.58
+PS0640,Central,Apartment,No,No,7.4,5,19,1,84.89
+PS0641,Residential,Apartment,No,No,16.6,4,15,1,40.51
+PS0642,University Area,Open Lot,No,No,14.2,4,23,1,40.46
+PS0643,Suburban,Commercial,No,Yes,4.1,3,11,2,56.7
+PS0644,Central,Commercial,No,Yes,10.5,4,5,2,86.23
+PS0645,Business District,Open Lot,No,Yes,5.3,1,15,4,51.25
+PS0646,Business District,Apartment,No,Yes,2.5,1,6,2,72.79
+PS0647,University Area,Open Lot,Yes,No,16.3,2,6,6,54.2
+PS0648,Suburban,Commercial,No,Yes,14.0,1,16,3,36.25
+PS0649,Residential,Open Lot,Yes,No,7.3,5,3,1,53.6
+PS0650,Suburban,Apartment,No,No,16.1,1,16,5,25.39
+PS0651,Central,Open Lot,No,Yes,6.1,2,9,5,67.69
+PS0652,Central,Commercial,Yes,Yes,5.3,1,19,12,95.03
+PS0653,Suburban,Apartment,Yes,No,10.1,3,4,5,39.26
+PS0654,Business District,Open Lot,No,No,1.4,1,15,1,51.5
+PS0655,Central,Commercial,Yes,Yes,8.0,2,22,10,87.38
+PS0656,Residential,Open Lot,Yes,No,10.4,1,22,10,33.11
+PS0657,Central,Commercial,No,No,8.7,2,4,5,76.3
+PS0658,Business District,Commercial,No,No,1.0,4,3,6,76.6
+PS0659,University Area,Commercial,Yes,No,13.9,5,18,3,75.91
+PS0660,Central,Commercial,Yes,No,9.8,4,18,8,96.91
+PS0661,Residential,Open Lot,Yes,Yes,17.5,4,2,6,58.0
+PS0662,University Area,Commercial,No,Yes,3.5,1,23,10,67.63
+PS0663,Central,Open Lot,No,No,10.2,4,5,5,66.83
+PS0664,Central,Open Lot,No,No,9.2,1,2,4,53.12
+PS0665,Residential,Open Lot,Yes,Yes,12.1,4,17,5,58.94
+PS0666,Residential,Apartment,No,No,10.5,3,13,6,44.19
+PS0667,Central,Open Lot,Yes,No,15.3,3,1,6,81.66
+PS0668,Central,Open Lot,No,Yes,15.6,1,7,8,53.36
+PS0669,Suburban,Commercial,No,No,7.6,4,17,4,50.95
+PS0670,Residential,Open Lot,No,No,15.2,2,9,3,33.16
+PS0671,Residential,Apartment,Yes,Yes,3.0,4,21,8,70.27
+PS0672,Residential,Open Lot,No,No,16.1,5,13,3,41.58
+PS0673,University Area,Open Lot,No,No,7.2,2,5,8,34.04
+PS0674,Residential,Open Lot,No,No,16.7,5,11,1,37.99
+PS0675,Central,Open Lot,No,No,2.5,4,22,2,76.08
+PS0676,Business District,Commercial,Yes,Yes,4.8,1,21,12,88.47
+PS0677,Suburban,Commercial,Yes,No,9.9,1,15,10,36.47
+PS0678,Business District,Commercial,No,No,5.6,1,22,5,63.07
+PS0679,Suburban,Commercial,Yes,No,10.6,5,1,5,60.53
+PS0680,Business District,Commercial,Yes,Yes,9.3,3,8,3,88.04
+PS0681,Suburban,Commercial,No,No,0.7,1,19,3,54.36
+PS0682,University Area,Commercial,Yes,No,14.2,2,15,3,56.61
+PS0683,Suburban,Apartment,No,Yes,17.4,5,4,10,48.09
+PS0684,University Area,Apartment,No,Yes,4.2,3,1,5,54.48
+PS0685,Central,Apartment,Yes,No,7.5,3,15,12,79.78
+PS0686,University Area,Commercial,No,Yes,9.8,4,0,5,74.7
+PS0687,University Area,Commercial,No,Yes,2.2,5,20,6,90.36
+PS0688,Business District,Commercial,No,No,14.5,3,20,8,74.55
+PS0689,University Area,Open Lot,Yes,Yes,9.6,2,10,12,63.97
+PS0690,Central,Apartment,No,Yes,9.7,4,11,4,79.28
+PS0691,Business District,Commercial,Yes,Yes,0.9,1,1,4,92.07
+PS0692,Central,Apartment,Yes,No,12.0,5,5,2,82.82
+PS0693,Residential,Commercial,No,No,12.1,1,20,10,51.56
+PS0694,University Area,Open Lot,No,No,3.3,1,8,1,44.48
+PS0695,University Area,Commercial,No,Yes,5.0,3,5,10,79.63
+PS0696,Residential,Open Lot,No,Yes,11.8,1,4,12,39.89
+PS0697,University Area,Apartment,Yes,No,13.0,1,1,2,56.29
+PS0698,University Area,Apartment,No,Yes,11.9,1,1,8,50.45
+PS0699,Business District,Apartment,No,No,10.6,5,22,10,62.96
+PS0700,Central,Open Lot,Yes,Yes,7.2,4,3,12,85.94
+PS0701,Business District,Commercial,No,No,1.5,1,11,12,69.56
+PS0702,University Area,Commercial,Yes,Yes,10.2,4,21,4,73.37
+PS0703,Business District,Open Lot,No,Yes,11.5,3,15,2,66.03
+PS0704,Residential,Apartment,Yes,Yes,0.9,5,7,10,69.74
+PS0705,University Area,Apartment,No,No,9.8,4,0,1,48.75
+PS0706,Central,Commercial,Yes,Yes,14.6,5,14,12,104.84
+PS0707,Residential,Open Lot,Yes,Yes,1.1,2,15,1,44.12
+PS0708,Central,Apartment,Yes,Yes,3.5,1,9,2,92.21
+PS0709,University Area,Open Lot,Yes,Yes,14.8,1,3,10,45.28
+PS0710,Central,Apartment,No,No,14.7,4,10,2,75.11
+PS0711,Suburban,Open Lot,Yes,No,15.1,2,1,3,30.7
+PS0712,Residential,Commercial,Yes,No,10.2,4,7,1,64.18
+PS0713,Residential,Apartment,No,Yes,0.8,4,2,1,70.76
+PS0714,Suburban,Commercial,No,No,12.6,2,4,5,36.52
+PS0715,Suburban,Commercial,No,Yes,16.9,5,22,1,49.46
+PS0716,Suburban,Apartment,No,No,7.8,5,7,4,37.24
+PS0717,Central,Open Lot,Yes,No,15.6,5,16,4,72.16
+PS0718,Residential,Commercial,Yes,Yes,2.5,2,21,10,69.56
+PS0719,University Area,Apartment,Yes,Yes,1.4,3,9,4,75.74
+PS0720,University Area,Apartment,Yes,Yes,16.7,2,5,1,62.8
+PS0721,University Area,Open Lot,Yes,Yes,16.2,4,18,6,63.76
+PS0722,Business District,Apartment,Yes,No,4.5,2,23,8,74.44
+PS0723,Residential,Commercial,Yes,Yes,8.7,4,1,8,78.07
+PS0724,University Area,Apartment,No,No,2.9,2,20,6,65.74
+PS0725,Business District,Apartment,No,Yes,1.1,5,1,5,89.51
+PS0726,University Area,Commercial,Yes,No,4.3,3,19,3,84.95
+PS0727,Suburban,Apartment,Yes,Yes,7.7,5,15,4,51.85
+PS0728,Business District,Apartment,No,Yes,4.8,4,18,4,78.98
+PS0729,Suburban,Apartment,Yes,No,17.7,1,15,12,40.02
+PS0730,University Area,Open Lot,Yes,No,9.2,1,17,1,52.93
+PS0731,University Area,Apartment,Yes,No,5.7,1,0,10,50.99
+PS0732,University Area,Open Lot,Yes,No,8.6,2,22,8,45.53
+PS0733,Residential,Commercial,No,Yes,15.6,1,12,6,43.88
+PS0734,Business District,Open Lot,Yes,Yes,11.4,3,23,1,71.19
+PS0735,Suburban,Open Lot,No,Yes,2.4,3,14,1,38.02
+PS0736,Suburban,Open Lot,Yes,Yes,2.9,3,7,12,52.0
+PS0737,Central,Open Lot,No,Yes,13.7,2,10,6,77.74
+PS0738,University Area,Commercial,Yes,Yes,7.0,4,15,12,75.86
+PS0739,Suburban,Apartment,No,No,8.4,3,21,2,37.2
+PS0740,Central,Apartment,No,Yes,5.5,1,3,3,80.21
+PS0741,Business District,Apartment,Yes,No,3.1,2,16,1,67.98
+PS0742,Suburban,Apartment,No,No,7.9,1,9,4,46.41
+PS0743,Central,Apartment,Yes,No,7.7,3,20,6,79.46
+PS0744,Suburban,Open Lot,No,No,5.8,2,9,3,34.0
+PS0745,Business District,Apartment,No,No,17.5,1,4,6,49.32
+PS0746,Suburban,Apartment,No,Yes,17.5,2,5,4,48.22
+PS0747,Central,Apartment,No,Yes,8.2,3,5,4,75.21
+PS0748,Business District,Commercial,Yes,No,8.3,2,17,5,82.85
+PS0749,Central,Apartment,No,No,13.9,4,10,3,87.19
+PS0750,Suburban,Commercial,No,No,16.2,5,21,3,48.22
+PS0751,Suburban,Open Lot,No,No,12.6,4,1,3,28.91
+PS0752,Central,Commercial,Yes,No,6.8,3,1,4,85.32
+PS0753,Suburban,Open Lot,Yes,No,3.9,1,17,10,35.32
+PS0754,Suburban,Commercial,Yes,No,6.1,5,16,1,49.85
+PS0755,Business District,Commercial,Yes,No,7.0,3,0,5,77.99
+PS0756,University Area,Open Lot,Yes,Yes,13.2,4,23,8,66.55
+PS0757,University Area,Commercial,Yes,No,13.3,4,4,2,71.63
+PS0758,Suburban,Commercial,Yes,No,2.0,4,20,5,71.74
+PS0759,University Area,Apartment,No,Yes,4.0,4,9,12,62.51
+PS0760,Business District,Open Lot,No,No,10.3,4,7,1,58.55
+PS0761,Central,Apartment,No,No,17.2,4,3,5,65.95
+PS0762,Residential,Apartment,Yes,No,9.1,1,19,6,53.61
+PS0763,Suburban,Commercial,No,No,11.5,4,22,2,38.32
+PS0764,Central,Commercial,Yes,Yes,3.1,4,22,3,108.33
+PS0765,Business District,Apartment,Yes,No,6.8,3,1,5,70.71
+PS0766,Central,Open Lot,Yes,Yes,13.9,5,5,12,93.89
+PS0767,Business District,Commercial,No,No,12.5,3,3,12,59.84
+PS0768,Central,Apartment,No,No,14.1,4,10,3,74.51
+PS0769,Central,Apartment,Yes,Yes,15.1,5,19,12,105.48
+PS0770,Central,Commercial,No,Yes,2.5,2,0,10,78.5
+PS0771,Business District,Commercial,No,Yes,14.8,5,16,6,86.0
+PS0772,Central,Apartment,Yes,Yes,12.5,3,4,4,88.76
+PS0773,Residential,Apartment,No,Yes,1.9,4,13,1,58.91
+PS0774,Suburban,Open Lot,Yes,No,2.6,3,1,2,43.14
+PS0775,Business District,Open Lot,Yes,Yes,14.2,5,6,4,81.85
+PS0776,Central,Apartment,No,No,6.7,5,23,4,81.91
+PS0777,Suburban,Open Lot,Yes,Yes,14.8,1,16,4,33.25
+PS0778,Residential,Open Lot,Yes,Yes,16.7,5,22,10,47.39
+PS0779,Business District,Open Lot,Yes,No,12.3,1,5,6,61.22
+PS0780,Suburban,Apartment,No,Yes,13.8,3,3,10,39.38
+PS0781,Central,Open Lot,Yes,No,13.8,3,17,1,84.07
+PS0782,University Area,Commercial,No,No,12.5,4,7,12,61.88
+PS0783,University Area,Commercial,No,Yes,15.5,4,21,6,74.84
+PS0784,University Area,Open Lot,Yes,No,8.2,1,3,3,60.92
+PS0785,University Area,Commercial,Yes,Yes,1.6,2,10,4,71.07
+PS0786,Central,Apartment,No,No,5.4,5,18,5,78.09
+PS0787,University Area,Commercial,No,No,17.8,5,8,3,71.27
+PS0788,Business District,Commercial,No,Yes,11.5,2,0,2,69.62
+PS0789,Central,Apartment,No,Yes,17.5,4,19,6,91.0
+PS0790,Central,Apartment,No,No,4.0,4,15,12,81.51
+PS0791,Business District,Open Lot,No,Yes,17.2,1,13,2,50.77
+PS0792,University Area,Commercial,No,Yes,1.1,5,21,5,81.02
+PS0793,Residential,Commercial,No,Yes,6.0,4,15,2,57.93
+PS0794,Suburban,Open Lot,No,No,10.3,2,16,1,19.57
+PS0795,University Area,Commercial,No,No,11.3,3,9,6,69.19
+PS0796,Residential,Commercial,No,Yes,13.9,3,12,2,58.51
+PS0797,University Area,Commercial,No,No,6.6,2,7,4,49.72
+PS0798,Central,Commercial,Yes,No,3.5,5,10,1,100.83
+PS0799,University Area,Open Lot,No,No,5.2,4,18,1,61.69
+PS0800,University Area,Commercial,Yes,No,2.3,2,10,10,74.72
